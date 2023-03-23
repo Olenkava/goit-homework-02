@@ -5,8 +5,8 @@
   --brand-color: #2e2f42;
   --dark-blue-text-color: #434455;
   --hover-color: #404bbf;
-  --iris-color: #4D5AE5;
-  --light-grey-color: #F4F4FD;
+  --iris-color: #4d5ae5;
+  --light-grey-color: #f4f4fd;
   --cornflower-color: #e7e9fc;
 }
 
@@ -35,13 +35,13 @@ body {
   color: var(--iris-color);
 }
 
-.logo-tail{
+.logo-tail {
   color: var(--brand-color);
 }
 
 .footer-logo-tail {
   color: var(--light-grey-color);
-} 
+}
 .header-link {
   font-weight: 500;
   font-size: 16px;
@@ -68,7 +68,7 @@ body {
 }
 
 .hero {
-  background: var(--brand-color) ;
+  background: var(--brand-color);
 }
 
 .hero-title {
@@ -160,7 +160,7 @@ body {
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
-  color: var(--dark-blue-text-color) ;
+  color: var(--dark-blue-text-color);
 }
 
 /*Portfolio*/
