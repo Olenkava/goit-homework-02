@@ -140,7 +140,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: inherit;
+  color: var(--brand-color);
 }
 
 .team {
@@ -155,7 +155,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: inherit;
+  color: var(--brand-color);
 }
 
 .team-list-item {
@@ -168,7 +168,7 @@ body {
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
-  color: inherit;
+  color: var(--brand-color);
 }
 
 .teammate-position {
@@ -188,7 +188,7 @@ body {
   justify-content: center;
   align-items: center;
   padding: 12px 24px;
-  background: var(--cloud-color);
+  background-color: var(--cloud-color);
   border: 1px solid var(--cornflower-color);
   border-radius: 4px;
   flex: none;
@@ -207,8 +207,7 @@ body {
 
 .filters-button:hover,
 .filters-button:focus,
-.filters-button:active,
-.filters-button.active {
+.filters-button:active {
   color: var(--white);
   background: var(--hover-color);
 }
@@ -222,25 +221,25 @@ body {
 }
 
 .product-name {
-font-family: inherit;
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: var(--brand-color);
-flex: none;
-flex-grow: 0;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--brand-color);
+  flex: none;
+  flex-grow: 0;
 }
 
 .product-type {
-font-family: inherit;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: var(--slate-color);
-flex: none;
-flex-grow: 0;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate-color);
+  flex: none;
+  flex-grow: 0;
 }
 
 /* Footer*/
