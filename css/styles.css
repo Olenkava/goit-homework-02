@@ -215,11 +215,8 @@ body {
 
 .product-item {
   box-sizing: border-box;
-  position: absolute;
   width: 360px;
   height: 420px;
-  left: 156px;
-  top: 288px;
   background: var(--white);
   border: 1px solid var(--cornflower-color);
 }
