@@ -10,6 +10,21 @@
   --cornflower-color: #e7e9fc;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  padding-left: 0;
+  margin: 0;
+}
+
 body {
   font-family: var(--primary-font-family);
   color: var(--slate-color);
